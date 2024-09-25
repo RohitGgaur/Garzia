@@ -1,0 +1,28 @@
+.counter-card {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px;
+margin-top: 30px;
+    /* background-color: #f9f9f9; */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .card-section {
+    text-align: center;
+  }
+  
+  .card-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .card-section p {
+    font-size: 32px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  

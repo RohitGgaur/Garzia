@@ -1,0 +1,42 @@
+/* box.css */
+.photo {
+    position: relative;
+    width: 100%;
+    height: 90vh; /* Full viewport height */
+    overflow: hidden;
+    top:30px;
+  }
+  
+  .photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.4;
+  }
+  
+  .card0 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 70%; /* Adjust as needed */
+    width: 80%; /* Adjust as needed */
+    background-color: white; /* Optional: Set a background color for the card */
+    box-sizing: border-box; /* Ensure border is included in width and height */
+    border: 5px solid black; /* Border styling */
+    overflow: hidden; /* Ensure overflow is hidden */
+  }
+  
+  .card0 .slick-slide {
+    display: flex;
+    justify-content: center; /* Center slider content */
+    align-items: center; /* Center slider content vertically */
+  }
+  
+  .card0 .slick-slide img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the container */
+    opacity: 0.5; 
+  }
+  

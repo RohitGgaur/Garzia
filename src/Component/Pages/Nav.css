@@ -1,0 +1,26 @@
+/* Navbar logo styling */
+.navbar-logo {
+  max-height: 50px;        /* Set a fixed max height to fit within the navbar */
+  height: 100%;            /* Allow the logo to take up the available height */
+  width: auto;             /* Maintain aspect ratio */
+  display: block;          /* Ensure it behaves like a block element */
+  object-fit: contain;     /* Ensure the logo doesn't distort */
+}
+
+/* Navbar container to manage the logo position */
+.navbar-brand {
+  display: flex;
+  align-items: center;     /* Vertically centers the logo in the navbar */
+  justify-content: flex-start; /* Align the logo to the left */
+}
+
+/* Navbar link styling */
+.nav-link {
+  font-weight: bold;       /* Make text bold */
+  transition: all 0.5s ease; /* Smooth transition for hover effect */
+}
+
+.nav-link:hover {
+  color: rgb(237, 243, 243) !important; /* Hover effect color */
+  text-decoration: underline;           /* Underline on hover */
+}
